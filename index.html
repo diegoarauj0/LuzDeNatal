@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Luz de Natal</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Luz de Natal</h1>
+        </header>
+        <div id="Tela">
+
+        </div>
+        <div id="Controle">
+            <button id="Start">Stop</button>
+            <hr>
+            <div class="Area">
+                <label for="Brilho">Brilho Da Luz</label>
+                <input type="range" id="Brilho" value="1" min="1" max="600">
+            </div>
+            <div class="Area">
+                <label for="Tempo">Intervalo</label>
+                <input type="range" id="Tempo" value="500" min="500" max="2500">
+            </div>
+            <div class="Area">
+                <label for="Cor">Adicionar Cor</label>
+                <input type="color" id="Cor" value="#FF0000">
+                <button id="AddColor">Adicionar</button>
+            </div>
+            <div class="Area">
+                <label for="Tamanho">Tamanho</label>
+                <input type="range" id="Tamanho" value="100" min="20" max="250">
+                <label for="Quantidade">Quantidade</label>
+                <input type="range" id="Quantidade" value="1" min="1" max="200">
+                <button id="AddSize">Adicionar</button>
+            </div>
+            <div class="Area">
+                <label for="">Modo Leve</label>
+                <button id="AddDropShadow">Ativar</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
